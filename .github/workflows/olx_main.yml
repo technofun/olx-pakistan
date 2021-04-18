@@ -4,7 +4,6 @@ name: olx-pakistan
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
 
@@ -29,10 +28,10 @@ jobs:
         with:
           version: 14
       
-      - name: GitHub Action for Yarn
-        uses: Borales/actions-yarn@v2.3.0
-        with:
-          cmd: install # will run 'yarn install' command
+      # - name: GitHub Action for Yarn
+      #   uses: Borales/actions-yarn@v2.3.0
+      #   with:
+      #     cmd: install # will run 'yarn install' command
       
       - name: Install dependencies
         run: npm install
