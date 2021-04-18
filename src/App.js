@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <TopLinks />
       <AddSection />
-      <p>numan ijaz</p>
+      <p>numan ijaz.</p>
       <main>
         <FeaturedProdSlider/>
       </main>
