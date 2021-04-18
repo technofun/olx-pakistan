@@ -1,4 +1,4 @@
-# React olx 
+# React olx-pakistan
 
-This olx project is responsive by Numan ijaz >>>>> [View Project](https://github.com/facebook/create-react-app).
+This olx project is responsive by Numan ijaz >>>>> [View Project](olx-pakistan.surge.sh).
 
