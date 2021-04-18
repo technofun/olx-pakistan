@@ -1,6 +1,7 @@
 #topli {
     align-items: center;
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
 }
 #topli > li {
@@ -8,6 +9,7 @@
 }
 #t_Links {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 #allCategories {
