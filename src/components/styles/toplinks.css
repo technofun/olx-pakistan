@@ -1,0 +1,34 @@
+#topli {
+    align-items: center;
+  display: flex;
+  list-style-type: none;
+}
+#topli > li {
+  margin-left: 15px;
+}
+#t_Links {
+  display: flex;
+  align-items: center;
+}
+#allCategories {
+  margin-left: 60px;
+}
+#allCategories > span {
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+  color: #002f34;
+}
+#allCateg_arrow > button {
+  background: none;
+  border: none;
+}
+#homepageImg {
+  height: 250px;
+  width: 100vw;
+  background-position: 50%;
+  background-color: #002f34;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://statics.olx.com.pk/external/base/img/hero_bg_pk.jpg");
+}
